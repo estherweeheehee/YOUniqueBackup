@@ -1,0 +1,37 @@
+{
+  "name": "younique",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "frontend-install": "cd frontend && npm install --production=false",
+    "frontend-build": "cd frontend && npm run build",
+    "heroku-postbuild": "npm run frontend-install && npm run frontend-build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/estherweeheehee/YOUnique.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/estherweeheehee/YOUnique/issues"
+  },
+  "homepage": "https://github.com/estherweeheehee/YOUnique#readme",
+  "dependencies": {
+    "@splidejs/react-splide": "^0.7.8",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "http-status-codes": "^2.2.0",
+    "jotai": "^1.7.2",
+    "moment": "^2.29.3",
+    "mongoose": "^6.4.0",
+    "nodemon": "^2.0.16"
+  }
+}

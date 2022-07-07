@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(241, 245, 249);
+}
+
+.mysales {
+    margin: auto;
+}
+
+.userpost {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.usercontents {
+    /* background-color: rgb(246, 244, 241); */
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 30px;
+    width: 60%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    border-radius: 10px;
+  }
+
+  .productcontents {
+    /* background-color: rgb(246, 244, 241); */
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 30px;
+    width: 60%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    
+    border-radius: 10px;
+  }
+
+  .purchasebox {
+    background-color: rgb(231, 237, 246);
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+
+  .purchasebutton {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 10px;
+  }
+
+  .postcontents {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 30px;
+    width: 60%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    
+    border-radius: 10px;
+  }
+
+  .editpostinput {
+    padding: 8px;
+    border: 2px solid slategray;
+    margin: 2px;
+  }
+
+  .feedbox {
+    width: 60%;
+  }
